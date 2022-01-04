@@ -9,12 +9,12 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
     /**
-     * @Route("/curriculum", name="show_all")
+     * @Route("/curriculum", name="curriculum_")
      */
 class CurriculumController extends AbstractController
 {
     /**
-     * @Route("/new", name="show_all")
+     * @Route("/", name="show_all")
      */
     public function index(ManagerRegistry $doctrine): Response
     {
